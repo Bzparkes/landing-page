@@ -36,17 +36,18 @@ a {
 }
 
 .container {
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .header .container {
     background-color: #1f2937;
     height: 400px;
     justify-content: space-between;
+    padding-top: 120px;
 }
 
 .header .container h1 {
-    max-width: 350px;
+    max-width: 400px;
     margin-left: 120px;
     color: #f9faf8;
     font-size: 48px;
@@ -58,11 +59,19 @@ a {
     margin-left: 120px;
     color: #e5e7eb;
     font-size: 18px;
-    max-width: 350px;
-    padding: 20px 0px;
+    max-width: 400px;
+    padding: 10px 0px;
 }
 
-button {
+.header .container button {
+    width: 110px;
+    padding: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
     background-color: #3882f6;
     margin-left: 120px;
+    color: #e5e7eb
+    
 }
