@@ -8,6 +8,8 @@ a {
     color: #e5e7eb;
 }
 
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,9 +26,9 @@ a {
 }
 
 .navbar ul li {
-    padding: 8px;
     color: #e5e7eb;
     font-size: 18px;
+    margin-left: 20px;
 }
 
 .navbar ul{
@@ -36,14 +38,28 @@ a {
 }
 
 .container {
+    display: flex;
     padding: 10px 0px;
+    align-items: center;
+}
+
+
+.header {
+       min-height: 400px;
+       align-items: center;
+}
+
+.header .container .header-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .header .container {
+    padding: 50px 0px 0px 50px;
     background-color: #1f2937;
     height: 400px;
     justify-content: space-between;
-    padding-top: 120px;
+    
 }
 
 .header .container h1 {
@@ -74,4 +90,9 @@ a {
     margin-left: 120px;
     color: #e5e7eb
     
+}
+
+.header img {
+    max-width: 600px;
+    margin: 0px 120px 60px 0px;
 }
