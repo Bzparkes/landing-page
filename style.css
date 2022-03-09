@@ -35,38 +35,34 @@ a {
     margin-right: 120px;
 }
 
-.container .header {
-    display: flex;
+.container {
+    padding: 20px 0px;
+}
+
+.header .container {
     background-color: #1f2937;
     height: 400px;
     justify-content: space-between;
-    
-   
 }
 
-.container .hero-content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    align-items: flex-start;
-}
-
-.container .header .hero-content .hero-main-text {
+.header .container h1 {
+    max-width: 350px;
+    margin-left: 120px;
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    margin-left: 120px;
-    margin-top: 60px;
+    
 }
 
-.container .header .hero-content .hero-blurb {
+.header .container p {
     margin-left: 120px;
     color: #e5e7eb;
     font-size: 18px;
+    max-width: 350px;
+    padding: 20px 0px;
 }
-    
-.container .header .hero-content .sign-up {
-    border-radius: 0px;
+
+button {
+    background-color: #3882f6;
     margin-left: 120px;
-    font-size: 16px; 
 }
