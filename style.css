@@ -100,33 +100,38 @@ a {
 .boxes h2 {
     display: flex;
     justify-content: center;
-    margin: 50px 0px;
+    margin: auto;
     color: #1f2937;
     font-size: 36px;
+    margin: 60px 0px;
 }
 
 .boxes .container  {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;   
+    align-items: baseline;
     border: 2px;
-    gap: 50px;
-    max-width: 600px;
-    margin: auto;
+    gap: 80px;
+    
 }
 
+/*
 .box {
     border: 2px;
     border-style: solid;
     border-color: #3882f6;
     background-color: white;
-}
+}*/
 
 .boxes .container .box img {
+    height: 200px;
     width: auto;
-    height: 150px;
     padding-bottom: none;
     margin: none;
+    
 }
 
+.boxes .container .box p {
+   
+    max-width: 145px;
 }
